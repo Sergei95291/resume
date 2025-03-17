@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #f1f1f1;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #0f141e;
+    word-spacing: 0.5px;
+    min-width: 550px;
+    
+}
+@media (max-width: 500px ) {
+body {
+    font-size: 14px;
+}
+
+}
+.imgSg {
+width: 300px;
+border-radius: 25px;
+box-shadow: 10px 2px 14px rgba(31, 10, 10, 0.5);
+margin-bottom: 4px;
+}
+@media (max-width: 650px) {
+    .imgSg {
+       width: 250px; 
+    }
+}
+
+@media (max-width: 650px) {
+    .boxImg {
+        text-align: center;
+    }
+}
+.content {
+    max-width: 750px;
+    margin: auto;
+}
+.hedname {
+    font-weight: 350;
+    margin-left: 25%;
+
+   
+    
+}
+.hedcont {
+    margin-left: 40px;
+}
+.header {
+    display: flex;
+}
+@media (max-width: 650px) {
+    .header {
+        display: block;
+    }
+}
+
+.header p {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.socseti a {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+    
+
+
+.maincontainer {
+    margin-top: 4px;
+}
+
+ .one {
+border: 2px solid #d0b8db;
+background: #d0b8db;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+
+
+}
+.one h2 {
+    padding-left: 25%;
+    font-weight: 400;
+}
+
+.crdtable {
+background:  #d0b8db;
+
+}
+.twotable {
+    border-collapse:collapse;
+    border 1px solid #000 ;
+    
+
+}
+.twotable th {
+    border: 1px solid rgba(0,0, 0, 0.2);
+
+    }
+    .twotable td {
+        border: 1px solid rgba(0,0, 0, 0.2); 
+        padding-left: 4px;   
+    
+    }
+.twotable thead  {
+background-color: #b195be;
+}
+.twotable tbody td:nth-child(1) {
+    background: #b195be;
+font-weight: 500;
+}
+.twotable tbody td:hover{
+    color: #fff;
+    
+}
+.cardtwo{
+    padding-top: 2px;
+}
+.frehob {
+background:  #d0b8db;
+border-bottom-left-radius: 10px ;
+border-bottom-right-radius: 10px ;
+
+}
+.frehob h2 {
+    text-align: center;
+    font-weight: 400;
+    
+}
+.frehob li {
+    
+    list-style: none;
+    padding-left: 4px;
+    padding-bottom: 4px;
+border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.five {
+    margin-top: 2px;
+
+}
+.footcard {
+    border: 2px solid #e6bfdd;
+background:  #efd8e4;
+border-radius: 10px ;
+}
+
+.fcard h3 {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+.fcard {
+    margin-bottom: 5px;
+    padding: 4px;
+}
+.author h3 {
+    font-weight: 500;
+    text-align: center;
+    padding: 4px;
+}
+.nameem {
+    padding-right:26px ;
+    padding-bottom: 5px;
+    
+  
+
+}
+.email {
+    width: 300px;
+    height: 15px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    outline: none;
+    padding: 14px 0px 4px;
+    color: #000000;
+    font-size: 18px;
+    
+}
+#nameemail::placeholder {
+text-align: center;
+}
+.contentemail {
+    margin-bottom: 5px;
+}
+.contentpasw {
+    margin-bottom: 5px;
+}
+
+.psw {
+    width: 300px;
+    height: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    
+}
+.author {
+    padding: 4px;
+    margin-bottom: 4px;
+}
+.contentms {
+    padding: 4px;
+}
+.namemesage {
+    text-align: center;
+}
+.ms {
+    font-size: 20px;
+    font-weight: 500;
+}
+.texms {
+   resize:none;
+   margin-top: 5px;
+   border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+width: 600px;
+margin-left: 10%;
+}
+.batn {
+    text-align: center;
+}
+
+.btn {
+    margin-bottom: 8px;
+    height: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    background: #6f9cff;
+    color: #ffffff;
+}
+.Contactme {
+    text-align: center;
+}
+.polename {
+    text-align: center;
+}
+
+.Yourpasword {
+    text-align: center;
+}
+
+.paswordfiled {
+    text-align: center;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #000000;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+a:active {
+    color: #004ffa;
+}
+.infoname {
+margin-top: 20px;
+margin-bottom: 40px;
+}
+ 
